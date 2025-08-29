@@ -19,8 +19,8 @@ jobs:
       matrix:
         include:
           - arch: aarch64
-            sdk_url_path: https://downloads.openwrt.org/releases/24.10.2/targets/mediatek/mt7622/
-            sdk_name: -sdk-24.10.2-mediatek-mt7622_
+            sdk_url_path: https://downloads.openwrt.org/releases/24.10.2/targets/mvebu/cortexa9/
+            sdk_name: -sdk-24.10.2-mvebu-cortexa9_gcc-
                       
     env:
       SDK_URL_PATH: ${{ matrix.sdk_url_path }}
